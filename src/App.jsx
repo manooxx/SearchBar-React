@@ -1,13 +1,12 @@
-
+import Home from "./pages/Home"
+import BookData from "./Data.json"
 
 function App() {
 
 
   return (
     <>
-      <div>
-        hii
-      </div>
+      <Home placeholder="Enter the Book name" data={BookData}/>
     </>
   )
 }
